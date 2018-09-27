@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc">
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+       />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/choose_from_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:textSize="10pt"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="加载图片" />
+        <Button
+            android:id="@+id/detection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:textSize="10pt"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/choose_from_album"
+            android:text="白天识别" />
+        <Button
+            android:id="@+id/night_detection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:textSize="10pt"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/detection"
+            android:text="夜晚识别" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<xml type_id="opencv-haar-classifier">
+  <size>
+    12 26</size>
+  <stages>
+    <_>
+      <!-- stage 0 -->
+      <trees>
+        <_>
+          <!-- tree 0 -->
+          <_>
+            <!-- root node -->
+            <feature>
+              <rects>
+                <_>
+                  0 19 6 2 -1.</_>
+                <_>
+                  2 19 2 2 3.</_></rects>
+              <tilted>0</tilted></feature>
+            <threshold>-3.9272669702768326e-002</threshold>
+            <left_val>9.8000007867813110e-001</left_val>
+            <right_val>-9.9999761581420898e-001</right_val></_></_></trees>
+      <stage_threshold>9.8000007867813110e-001</stage_threshold>
+      <parent>-1</parent>
+      <next>-1</next></_>
+    <_>
+      <!-- stage 1 -->
+      <trees>
+        <_>
+          <!-- tree 0 -->
+          <_>
+            <!-- root node -->
+            <feature>
+              <rects>
+                <_>
+                  0 22 6 4 -1.</_>
+                <_>
+                  0 22 3 2 2.</_>
+                <_>
+                  3 24 3 2 2.</_></rects>
+              <tilted>0</tilted></feature>
+            <threshold>-2.1518740803003311e-002</threshold>
+            <left_val>9.1304391622543335e-001</left_val>
+            <right_val>-9.9999731779098511e-001</right_val></_></_></trees>
+      <stage_threshold>9.1304391622543335e-001</stage_threshold>
+      <parent>0</parent>
+      <next>-1</next></_></stages></xml>
+</opencv_storage>
